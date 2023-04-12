@@ -1,23 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./6289247.png";
+import "./App.css";
+import { Menubar } from "primereact/menubar";
+import { MenuItem } from "primereact/menuitem";
 
 function App() {
+  const items: MenuItem[] = [
+    {
+      label: "Home",
+    },
+    {
+      label: "Montly Reports",
+    },
+    {
+      label: "Weekly Reports",
+    },
+  ];
+
+  const end = <img alt="logo" src={logo} height="40" className="mr-2"></img>;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <div className="card">
+          <Menubar className="menu" start={end} model={items} />
+        </div>
       </header>
     </div>
   );
