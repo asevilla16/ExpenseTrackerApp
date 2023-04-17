@@ -3,17 +3,26 @@ import logo from "./6289247.png";
 import "./App.css";
 import { Menubar } from "primereact/menubar";
 import { MenuItem } from "primereact/menuitem";
+import Router from "./routes/router";
 
 function App() {
   const items: MenuItem[] = [
     {
       label: "Home",
+      url: "/",
     },
     {
-      label: "Montly Reports",
+      label: "Reports",
+      url: "/monthly-report",
     },
     {
-      label: "Weekly Reports",
+      label: "Settings",
+      items: [
+        {
+          label: "Categories",
+          url: "/settings/categories",
+        },
+      ],
     },
   ];
 
@@ -22,9 +31,8 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div className="card">
-          <Menubar className="menu" start={end} model={items} />
-        </div>
+        <Menubar className="menu" start={end} model={items} />
+        <Router />
       </header>
     </div>
   );

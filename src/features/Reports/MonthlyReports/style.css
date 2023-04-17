@@ -1,0 +1,24 @@
+.reports-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chart{
+    padding: 40px;
+    width: 50%;
+}
+
+.bar-chart{
+    padding: 40px;
+    width: 80%;
+}
+
+.pie-charts-container{
+    padding: 40px;
+    display: flex;
+}
+
+canvas {
+    width: 100%;
+}

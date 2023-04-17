@@ -1,0 +1,36 @@
+.container{
+    padding: 40px;
+    display: flex;
+}
+
+.indicators{
+
+}
+
+.tables{
+
+}
+
+.incomes{
+    padding: 20px;
+}
+
+.expenses{
+    padding:20px;
+}
+
+.incomes-indicator{
+    background: rgb(141, 238, 141);
+    border-color: black;
+    border: 1px solid black;
+}
+
+.expenses-indicator{
+    background: rgb(235, 133, 133);
+}
+
+.total {
+    background: rgb(156, 203, 247);
+}
+
+
