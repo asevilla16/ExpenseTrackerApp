@@ -10,13 +10,16 @@ import "primeicons/primeicons.css";
 import "/node_modules/primeflex/primeflex.css";
 import { Provider } from "react-redux";
 import { store } from "./store/store";
+import { HashRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <Provider store={store}>
-    <App />
+    <Router>
+      <App />
+    </Router>
   </Provider>
 );
 
