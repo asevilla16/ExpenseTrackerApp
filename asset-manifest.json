@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ExpenseTrackerApp/static/css/main.1da43dcf.css",
+    "main.js": "/ExpenseTrackerApp/static/js/main.7e12004c.js",
+    "static/js/708.d6e5a921.chunk.js": "/ExpenseTrackerApp/static/js/708.d6e5a921.chunk.js",
+    "static/js/787.cc8251c0.chunk.js": "/ExpenseTrackerApp/static/js/787.cc8251c0.chunk.js",
+    "static/media/primeicons.svg": "/ExpenseTrackerApp/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/primeicons.eot": "/ExpenseTrackerApp/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/ExpenseTrackerApp/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/ExpenseTrackerApp/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/6289247.png": "/ExpenseTrackerApp/static/media/6289247.733c6d08a2da8d3fc070.png",
+    "static/media/primeicons.woff2": "/ExpenseTrackerApp/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/color.png": "/ExpenseTrackerApp/static/media/color.6441e63a57ccc5105bad.png",
+    "index.html": "/ExpenseTrackerApp/index.html",
+    "main.1da43dcf.css.map": "/ExpenseTrackerApp/static/css/main.1da43dcf.css.map",
+    "main.7e12004c.js.map": "/ExpenseTrackerApp/static/js/main.7e12004c.js.map",
+    "708.d6e5a921.chunk.js.map": "/ExpenseTrackerApp/static/js/708.d6e5a921.chunk.js.map",
+    "787.cc8251c0.chunk.js.map": "/ExpenseTrackerApp/static/js/787.cc8251c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1da43dcf.css",
+    "static/js/main.7e12004c.js"
+  ]
+}
